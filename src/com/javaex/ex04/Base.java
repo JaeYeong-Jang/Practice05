@@ -2,7 +2,9 @@ package com.javaex.ex04;
 
 public class Base {
     //fields
-
+	
+	//constructor
+	
 	//method g/s
 	
 	//method normal
