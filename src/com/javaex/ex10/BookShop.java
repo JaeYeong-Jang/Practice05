@@ -42,7 +42,7 @@ public class BookShop {
     private static void displayBookInfo(Book[] books) {
         //코드작성
     	for(int i = 0; i < books.length; i++) {
-        	//내일하자
+        	//
         }
     	
     }

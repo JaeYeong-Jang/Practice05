@@ -12,14 +12,14 @@ public class Book {
     	
     }
     public Book(int bookno, String title, String author) {
-    	this();
+    	this(bookno, title, author, 1);
     }
     
     public Book(int bookNo, String title, String author, int stateCode) {
     	this.bookNo = bookNo;
     	this.title = title;
     	this.author = author;
-    	this.stateCode = stateCode = 1;
+    	this.stateCode = stateCode;
     }
     //method g/s
     public void setBookno(int bookno) {
