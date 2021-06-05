@@ -49,14 +49,14 @@ public class Book {
     //method normal
     public void rent(int booknum) {
     	this.stateCode = 0;
-    	System.out.println(this.title + " 가 대여 됐습니다.");
+    	System.out.println(this.title + " (가) 대여 됐습니다.");
     }
     
     public void print() {
     	if(this.stateCode == 1) {
-    		System.out.println("책 제목 : " + this.title + ", 작가 : " + this.author + ", 대여 유무 : 재고있음");
+    		System.out.println(this.bookNo + "책 제목 : " + this.title + ", 작가 : " + this.author + ", 대여 유무 : 재고있음");
     	}else if(this.stateCode == 0){
-    		System.out.println("책 제목 : " + this.title + ", 작가 : " + this.author + ", 대여 유무 : 재고없음");
+    		System.out.println(this.bookNo + "책 제목 : " + this.title + ", 작가 : " + this.author + ", 대여 유무 : 대여중");
     	}
     }
 }

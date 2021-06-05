@@ -28,7 +28,7 @@ public class BookShop {
 
         // (1) 입력된 번호에 맞는 책을 찾아 대여 되었음(상태코드=0)을 체크 합니다.
         // 코드작성
-        books[num].rent(num);
+        books[num-1].rent(num);
         
         
 
@@ -42,7 +42,7 @@ public class BookShop {
     private static void displayBookInfo(Book[] books) {
         //코드작성
     	for(int i = 0; i < books.length; i++) {
-        	//
+    		books[i].print();
         }
     	
     }
